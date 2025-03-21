@@ -7,7 +7,7 @@ export default function Card() {
         <Text style={styles.headerPost}>São Paulo</Text>
 
         <Image style={styles.imagesp}
-          source={require('./assets/saoPaulo.jpg')}
+          source={require('./../../assets/saoPaulo.jpg')}
           resizeMode='cover' />
 
         <Text style={styles.textPost}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, commodi cum aliquam ab blanditiis molestias, quod totam eum atque vitae deleniti, fugiat mollitia beatae obcaecati repellat nisi repellendus suscipit saepe.</Text>
