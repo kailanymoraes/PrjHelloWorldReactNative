@@ -12,7 +12,8 @@ export default function Button() {
       <Header/>   
         
         <Card/>
-        <Card/>
+
+
       
       <Footer/>
     </View>
