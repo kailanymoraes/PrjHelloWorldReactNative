@@ -1,5 +1,4 @@
 import { Text, View, Image, StyleSheet} from 'react-native';
-import Button from '../Button/Button';
 
 type Props = {
   titulo: string,
@@ -13,12 +12,6 @@ export default function Conteudo(props: Props) {
         <Text style={styles.textTitulo}>{props.titulo}</Text>
         <Image source={props.imagem} style={styles.image}/>
         <Text style={styles.textCorpo}>{props.corpo}</Text>
-        
-
-
-
-
-
         </View>
 
     );
